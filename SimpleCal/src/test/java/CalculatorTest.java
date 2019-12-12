@@ -1,13 +1,13 @@
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class SimpleCalculatorTest {
+class CalculatorTest {
     @Test
     void add(){
-        assertEquals(4, SimpleCalculator.add(2,2));
+        assertEquals(4, Calculator.add(2,2));
     }
     @Test
     void multiply(){
-        assertEquals(4, SimpleCalculator.multiply(2,2));
+        assertEquals(4, Calculator.multiply(2,2));
     }
 }
