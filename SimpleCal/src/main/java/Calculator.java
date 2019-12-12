@@ -1,4 +1,4 @@
-public class SimpleCalculator {
+public class Calculator {
     public static int add(int... SumNumbers){
         int sum = 0;
         for (int a: SumNumbers){
